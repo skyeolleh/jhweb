@@ -1,0 +1,19 @@
+extends layout
+
+block container
+  #wrapper
+    #header
+      .hd
+        a(href='/index')
+          img.main-icon(src='/images/icon/JHIcon.png')
+        h2 Welcome to #{title}
+        ul#head-menu
+          li
+            img.menu-icon(src='/images/icon/menu-icon.png')
+
+    #content-wrap
+      #gnb
+        ul
+          li list1
+          li list2
+          li list3
